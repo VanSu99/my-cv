@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--========== BOX ICONS ==========-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!--========== CSS ==========-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <title>Responsive resume cv</title>
+</head>
+
+<body>
+  <!--========== HEADER ==========-->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav__logo">Smith</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="bx bx-home nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#profile" class="nav__link">
+              <i class="bx bx-user nav__icon"></i>Profile
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#education" class="nav__link">
+              <i class="bx bx-book nav__icon"></i>Education
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="bx bx-receipt nav__icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#experience" class="nav__link">
+              <i class="bx bx-briefcase-alt nav__icon"></i>EXPERIENCE
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#references" class="nav__link">
+              <i class="bx bx-link-external nav__icon"></i>REFERENCES
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main bd-container">
+    <!-- All elements within this div, is generated in PDF -->
+    <div class="resume" id="area-cv">
+      <div class="resume__left">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+          <div class="home__container section bd-grid">
+            <div class="home__data bd-grid">
+              <img src="assets/img/perfil.jpg" alt="avatar" class="home__img">
+              <h1 class="home__title">
+                Tran Van <b>Su</b>
+              </h1>
+              <h3 class="home__profession">Fresher Front-end Developer</h3>
+            </div>
+          </div>
+
+          <div class="home__address bd-grid">
+            <span class="home__information">
+              <i class="bx bx-map home__icon"></i>District 6, Ho Chi Minh City
+            </span>
+            <span class="home__information">
+              <i class="bx bx-envelope home__icon"></i>vansutran99@gmail.com
+            </span>
+            <span class="home__information">
+              <i class="bx bx-phone home__icon"></i>0354184864
+            </span>
+            <a href="https://github.com/VanSu99" target="_blank" class="home__information">
+              <i class="bx bxl-github home__icon"></i>VanSu99
+            </a>
+          </div>
+        </section>
+
+        <!--========== PROFILE ==========-->
+        <section class="profile section" id="profile">
+          <h2 class="section-title">Profile</h2>
+          <p class="profile__desc">I am fascinated by user interfaces, coding, and prototypes include Website. I enjoy a
+            challenge and look for the opportunity to expand and develop my skill set. I am able to work effectively in
+            a team or on my own.</p>
+        </section>
+
+        <!--========== EDUCATION ==========-->
+        <section class="education" id="education">
+          <h2 class="section-title">Education</h2>
+          <div class="education__container bd-grid">
+            <div class="education__content">
+              <div class="education__time">
+                <span class="education__rounder"></span>
+                <!-- <span class="education__line"></span> -->
+              </div>
+              <div class="education__data bd-grid">
+                <h3 class="education__title">Information technology</h3>
+                <span class="education__studies">Ho Chi Minh City University of Natural Resources and Environment</span>
+                <span class="education__year">2017 - present</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="resume__right">
+        <!--========== SKILLS  ==========-->
+        <section class="skills section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills__content">
+            <ul class="skills__data">
+              <li class="skills__name">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png"
+                  alt="html" class="skills__img">
+              </li>
+              <li class="skills__name">
+                <img
+                  src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png"
+                  alt="css" class="skills__img">
+              </li>
+              <li class="skills__name">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+                  alt="js" class="skills__img">
+              </li>
+              <li class="skills__name">
+                <img src="https://anhtran.net/content/images/2016/12/sass.png" alt="sass" class="skills__img">
+              </li>
+              <li class="skills__name">
+                <img src="https://cdn-images-1.medium.com/max/1600/1*6kK9j74vyOmXYm1gN6ARhQ.png" alt="reactjs"
+                  class="skills__img">
+              </li>
+              <li class="skills__name">
+                <img src="https://res.cloudinary.com/dominhhai/image/upload/code/git.png" alt="git" class="skills__img">
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="experience section" id="experience">
+          <h2 class="section-title">EXPERIENCE</h2>
+          <div class="experience__container bd-grid">
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Project: Shop Đồng Hồ</h3>
+                <span class="experience__company">Roles: Front-end Developer</span>
+                <span class="experience__company">Duration: Feb 10, 2020</span>
+                <p class="experience__desc">This project has been coded in the process of learning HTML,
+                  CSS. In the process of implementing this project, applying layout, responsive web
+                  design techniques.</p>
+                <div>
+                  <span class="experience__list-title">Stacks :</span>
+                  <ul class="experience__list-desc">
+                    <li class="experience__list-item">HTML/CSS</li>
+                    <li class="experience__list-item">JavaScript</li>
+                  </ul>
+                </div>
+                <a href="https://vansu99.github.io/watch-project/" target="_blank" class="experience__link">
+                  Click here to open web page <i class='bx bx-right-arrow-alt'></i>
+                </a>
+              </div>
+            </div>
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <!-- <span class="experience__line"></span> -->
+              </div>
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Project: Schedule Planner</h3>
+                <span class="experience__company">Roles: Front-end Developer</span>
+                <span class="experience__company">Duration: Apr 24, 2020 - present</span>
+                <p class="experience__desc">Schedule Planner is a card-based task management tool that can be utilized
+                  for projects. This project has been coded in the process of learning
+                  ReactJS. I referenced Trello's interface and some features. It supports users to create tasks, track
+                  the progress of each task. However, the project is still under development.</p>
+                <div>
+                  <span class="experience__list-title">Stacks :</span>
+                  <ul class="experience__list-desc">
+                    <li class="experience__list-item">HTML/SCSS</li>
+                    <li class="experience__list-item">ReactJS</li>
+                    <li class="experience__list-item">Material UI</li>
+                    <li class="experience__list-item">Context API</li>
+                    <li class="experience__list-item">Redux</li>
+                    <li class="experience__list-item">Redux-thunk</li>
+                    <li class="experience__list-item">NodeJS</li>
+                    <li class="experience__list-item">MongoDB</li>
+                  </ul>
+                </div>
+                <a href="https://final-todo-list.vercel.app" target="_blank" class="experience__link">
+                  Click here to open web page <i class='bx bx-right-arrow-alt'></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--========== LANGUAGES ==========-->
+        <section class="languages section">
+          <h2 class="section-title">Languages</h2>
+          <div class="languages__container">
+            <ul class="languages__content bd-grid">
+              <li class="languages__name">
+                <span class="languages__circle"></span> Vietnamese
+              </li>
+              <li class="languages__name">
+                <span class="languages__circle"></span> English
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--========== INTERESTS ==========-->
+        <section class="interests section">
+          <h2 class="section-title">Interests</h2>
+          <div class="interests__container bd-grid">
+            <div class="interests__content">
+              <i class="bx bx-headphone interests__icon"></i>
+              <span class="interests__name">Music</span>
+            </div>
+            <div class="interests__content">
+              <i class="bx bx-book interests__icon"></i>
+              <span class="interests__name">Book</span>
+            </div>
+            <div class="interests__content">
+              <i class="bx bx-game interests__icon"></i>
+              <span class="interests__name">Game</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!--========== SCROLL TOP ==========-->
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+  </a>
+
+
+  <!--========== HTML2PDF ==========-->
+  <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+  <!--========== MAIN JS ==========-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
