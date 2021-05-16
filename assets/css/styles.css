@@ -299,9 +299,8 @@ img {
 }
 
 .home__img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 160px;
+  height: 190px;
   justify-self: center;
   margin-bottom: var(--mb-1);
 }
